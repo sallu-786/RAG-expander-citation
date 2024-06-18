@@ -1,0 +1,13 @@
+streamlit
+openai
+python-dotenv
+langchain
+langchain_huggingface
+langchain_community
+python-docx
+python-pptx
+pandas
+faiss-cpu
+openpyxl
+rank_bm25 
+PyPDF2

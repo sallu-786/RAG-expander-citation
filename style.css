@@ -1,0 +1,49 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333333;  /* Dark gray for the title */
+}
+
+.sub-title {
+    font-size: 1rem;
+    color: #666666;  /* Medium gray for the subtitle */
+}
+
+.file-upload {
+    font-size: 1.2rem;
+    color: #555555;  /* Medium-dark gray for file upload instructions */
+}
+
+.chat-input {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #444444;  /* Dark gray for chat input */
+}
+
+.chat-message, .assistant-response {
+    background-color: #f0f0f0;  /* Light gray background for messages */
+    padding: 10px;
+    border-radius: 5px;
+    color: #444444;  /* Dark gray text color */
+    margin-bottom: 10px;  /* Space between messages */
+    border: none;  /* Remove any borders */
+}
+
+/* Specific styles for assistant responses */
+.assistant-response {
+    background-color: #e0e0e0;  /* Slightly different light gray background for assistant responses */
+}
+
+/* Reset default styles to avoid double bars */
+.chat-message *:not(pre), .assistant-response *:not(pre) {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
